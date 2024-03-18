@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Website Portofolio</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.all.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="logo"><a href="#home" class="page-scroll">Portofolio <br><hr><span>Website</span></a></li>
+		</ul>
+		<ul class="menu">
+			<li><a class="page-scroll" href="#home">Home</a></li>
+			<li><a class="page-scroll" href="#about">About Me</a></li>
+			<li><a class="page-scroll" href="#services">Experience</a></li>
+			<li><a class="page-scroll" href="#team">Gallery</a></li>
+			<li><a class="page-scroll" href="#news">Blog</a></li>
+			<li><a class="page-scroll" href="#contact">Contact Us</a></li>
+		</ul>
+	</nav>
+	<header id="home" >
+		<div id="particles-js">
+			<div class="judul">
+				<div>
+					<h1>Agung Setiawan<br> <b></b></h1>
+					
+				</div>
+				
+			</div>
+			<div class="fitur">
+				<div class="kotak">
+					<img src="assets/img/icon/cloud.png" alt="">
+					<p>PHP</p>
+				</div>
+				<div class="kotak">
+					<img src="assets/img/icon/demostration.png" alt="">
+					<p>JavaScript</p>
+				</div>
+				<div class="kotak">
+					<img src="assets/img/icon/lamp.png" alt="">
+					<p>Laravel</p>
+				</div>
+				<div class="kotak">
+					<img src="assets/img/icon/startup.png" alt="">
+					<p>ReactJs</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="deskripsi">
+			<h2>About Me</h2>
+			<p>Haloo, Saya adalah</p>
+			<p>Agung Setiawan, Saat ini saya adalah mahasiswa semester 5 Universitas Gunadarma jurusan Informatika
+				Sistem.
+				Untuk hal-hal yang membawa saya terjun ke bidang web development karena saya memiliki sesuatu yang saya sukai dari saya
+				jurusan yaitu bagian pengembangan web membuat saya bersemangat untuk mendalami berbagai bahasa pemrograman
+				seperti HTML, CSS, JavaScript dan bahkan bermain dalam framework seperti Bootstrap 5, TailwindCSS, ReactJS.
+				Untuk mempelajari lebih lanjut tentang pengembangan web, saya sering mencoba membuat beberapa proyek kecil, dari situ saya mendapatkan proyek baru
+				pengalaman yang lebih keren dari sebelumnya dan dia bercita-cita untuk mengejar karir sebagai Rekayasa Perangkat Lunak di masa depan</p>
+			
+		</div>
+		<div class="gambar">
+			<div class="kiri">
+				<img src="assets/img/foto3.jpeg" alt="" class="satu">
+				<img src="assets/img/foto4.jpeg" alt="" class="tiga">
+			</div>
+			<div class="kanan">
+				<img src="assets/img/foto2.jpeg" alt="" class="dua">
+			</div>
+		</div>
+	</section>
+	<section class="services" id="services">
+		<h2>Pengalaman Saya Selama 5 Semester</h2>
+		<p class="desc">Selama 5 semester saya telah membuat beberapa project dalam mengasah skill saya,baik project based on kampus atau project mandiri Seperti :</p>
+		<div class="services-cards">
+			<div class="services-card">
+				<img src="assets/img/tictactoe.PNG" alt="">
+				<h3>Tictactoe Game</h3>
+				<p>Pada proyek ini, Saya mengembangkan permainan TicTacToe menggunakan HTML untuk struktur halaman, CSS untuk desain dan tata letak, dan JavaScript untuk logika permainan. Saya juga memperkenalkan konsep responsif untuk membuat permainan dapat dimainkan di berbagai perangkat.</p>
+				<a href="">Learn More</a>
+			</div>
+			<div class="services-card">
+				<img src="assets/img/keuangan.PNG" alt="">
+				<h3>Sistem Informasi Keuangan.</h3>
+				<p>Proyek ini mungkin mencakup pengembangan sistem yang memungkinkan pengguna untuk melakukan manajemen keuangan pribadi atau bisnis. Saya menggunakan PHP sebagai bahasa pemrograman server-side untuk mengelola logika bisnis dan interaksi dengan database guna menyimpan dan mengambil data keuangan.</p>
+				<a href="">Learn More</a>
+			</div>
+			<div class="services-card">
+				<img src="assets/img/Arsip.PNG" alt="">
+				<h3>Sistem Informasi Arsip</h3>
+				<p>Pada proyek ini, Saya fokus pada pengembangan sistem informasi untuk mengelola dan mengarsipkan data. PHP kemungkinan digunakan untuk memproses formulir, mengelola file, dan berinteraksi dengan database untuk menyimpan dan mengambil informasi arsip.</p>
+				<a href="">Learn More</a>
+			</div>
+			<div class="services-card">
+				<img src="assets/img/ecommerce.PNG" alt="">
+				<h3>Multi Vendor Ecommerce</h3>
+				<p>Proyek ini melibatkan pembangunan platform e-commerce yang mendukung penjual-penjual berbagai barang. Saya memilih Laravel, sebuah framework PHP yang kuat, untuk mengembangkan aplikasi ini. Saya juga memperkenalkan fitur-fitur seperti manajemen produk, keranjang belanja, pembayaran online, dan manajemen akun pengguna.</p>
+				<a href="">Learn More</a>
+			</div>
+		</div>
+	</section>
+	<section class="team" id="team">
+		<h2>Galerry</h2>
+		<p class="desc">Selamat datang di halaman galerry proyek-proyek pengembangan perangkat lunak selama lima semester. Dalam perjalanan ini, saya telah fokus pada berbagai aspek pengembangan, mulai dari permainan interaktif TicTacToe menggunakan HTML, CSS, dan JavaScript, hingga implementasi sistem informasi keuangan dan arsip dengan menggunakan PHP. 
+			Tidak hanya itu, proyek puncak saya melibatkan pengembangan platform e-commerce multivendor menggunakan Laravel. Setiap proyek mencerminkan eksplorasi dalam dunia pengembangan perangkat lunak, 
+			membawa saya melalui perjalanan yang kaya akan pengalaman dan pengetahuan baru. Semoga halaman ini memberikan gambaran yang jelas tentang konsep, desain, dan implementasi dari setiap proyek yang telah saya rintis.</p>
+		<div class="gallery">
+			<div class="kiri">
+				<img src="assets/img/gambar4.jpeg" alt="" class="jumbo">
+			</div>
+			<div class="kanan">
+				<img src="assets/img/gambar1.jpeg" alt="" class="thumb">
+				<img src="assets/img/gambar2.jpeg" alt="" class="thumb">
+				<img src="assets/img/gambar3.jpeg" alt="" class="thumb">
+			</div>
+		</div>
+	</section>
+	<section class="news" id="news">
+		<h2>Pengembangan Kedepannya</h2>
+		<div class="services-cards">
+			<div class="services-card">
+				<img src="assets/img/ppob.PNG" alt="">
+				<div class="text">
+					<h3>Website Top Up Game</h3>
+					<span>19 November 2023</span>
+					<p>Selamat datang di pengantar singkat proyek saya! Saya dengan bangga mempersembahkan dokumentasi dari perjalanan pengembangan website top-up game yang telah saya rancang menggunakan PHP native. 
+						Melalui proyek ini, saya berusaha menciptakan sebuah platform yang memungkinkan pengguna untuk melakukan top-up saldo game dengan mudah dan aman. Dokumentasi ini memberikan wawasan singkat tentang konsep,
+						 struktur, dan fitur utama yang saya implementasikan dalam pengembangan website ini.
+						 Semoga informasi yang disajikan memberikan gambaran yang memadai tentang pencapaian dalam mengembangkan aplikasi berbasis PHP native ini.</p>
+					<hr>
+					<a href="">Learn More</a>
+				</div>
+			</div>
+			<div class="services-card">
+				<img src="assets/img/laundry.PNG" alt="">
+				<div class="text">
+					<h3>Website Laundry</h3>
+					<span>Desember 4 2023</span>
+					<p>
+						Selamat datang di kata pengantar singkat proyek pengembangan website laundry yang telah saya rancang menggunakan PHP native. Proyek ini bertujuan menyediakan solusi efisien untuk manajemen laundry, mencakup fitur-fitur seperti pelacakan pesanan, manajemen pelanggan, dan pencatatan transaksi. Melalui dokumentasi ini, saya berbagi wawasan tentang konsep desain, implementasi, dan fungsionalitas utama yang telah saya integrasikan dalam pengembangan website ini. Semoga dokumentasi ini memberikan gambaran yang komprehensif tentang prestasi dalam menciptakan platform laundry berbasis PHP native.</p>
+					<hr>
+					<a href="">Learn More</a>
+				</div>
+			</div>
+			<div class="services-card">
+				<img src="assets/img/portofolio.PNG" alt="">
+				<div class="text">
+					<h3>Website Portofolio 3D</h3>
+					<span>Januari 4 2024</span>
+					<p>
+						Selamat datang di kata pengantar singkat proyek saya! Saya dengan gembira mempersembahkan dokumentasi dari perjalanan pengembangan website portofolio 3D yang telah saya rancang menggunakan Next.js. Proyek ini bertujuan memberikan pengalaman interaktif dan dinamis kepada pengunjung dengan menampilkan portofolio secara tiga dimensi. Melalui dokumentasi ini, saya akan memberikan wawasan tentang konsep desain, penerapan teknologi Next.js, serta fitur-fitur yang memperkaya pengalaman pengguna. Semoga dokumentasi ini memberikan gambaran yang jelas tentang prestasi dalam menciptakan website portofolio 3D menggunakan Next.js.</p>
+					<hr>
+					<a href="">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="kiri">
+			<h2>Contact Us</h2>
+			<p>Silahkan hubungi kami jika Anda tertarik dengan layanan yang kami tawarkan. jangan sungkan untuk bertanya jika ada pertanyaan.</p>
+			<p>Harap sertakan nama, email, dan pesan yang ingin Anda sampaikan pada kolom berikut.</p>
+		</div>
+		<div class="kanan">
+			<form action="" onSubmit="validation()">
+				<label for="name">Nama</label>
+				<input type="text" name="name" id="name"> 
+				<label for="email">E-Mail</label>
+				<input type="email" name="email" id="email">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<div class="tombol">	
+					<button id="button" class="simpan">SEND</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="intouch">	
+		<ul class="kiri">
+			<li class="logo"><a href="">Agung <br><hr><span>Setiawan</span></a></li>
+		</ul>
+		<div class="sosmed">
+			<h3>Contact Us</h3>
+			<ul>
+				<li>agungsetiawan@.gmail.com</li>
+				<li>0812552321</li>
+				<li>Bojongsari Depok.</li>
+			</ul>
+		</div>
+		<div class="subscribe">
+			<h3>Subscribe Newsletter</h3>
+			<input type="text" placeholder="Type your E-mail here">
+			<a href=""><img src="assets/img/icon/arrow.png" alt=""></a>
+		</div>
+	</section>
+	<footer>
+		<span>Made with  Agung Setiawan<img src="assets/img/icon/love.png" alt=""> in Depok &copy; 2024</span>
+	</footer>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/particles.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
